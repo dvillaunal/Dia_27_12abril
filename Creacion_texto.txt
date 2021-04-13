@@ -1,0 +1,18 @@
+Profe Con el Siguiente Codigo Cree los textos que estan agregados,
+si quiere ver como cambian los graficos solo lleve esto a las primeras lineas de Codigo
+especificamente entre line 2 y line 3, ejecute y observe los graficos....
+ejecute y observe.
+
+-----------------------------------------------------------
+import numpy as np # <- Este no es necesario si ya esta en main.py
+
+x = np.random.normal(170, 10, 250)
+
+
+np.savetxt('Distribución_normal_aletoria.txt', x)
+
+x = np.random.randint(150, size=(150))
+np.savetxt('Arrays_X_scatter.txt', x)
+y = np.random.randint(150, size=(150))
+np.savetxt('Arrays_Y_scatter.txt', x)
+-----------------------------------------------------------
